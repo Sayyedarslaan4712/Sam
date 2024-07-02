@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Love Story</title> 
+    <title> sam </title> 
   </head>
   <body id="body">
     <div class="preload">
@@ -26,7 +26,7 @@
     </div>
     <div id="bg"></div> <img src="" alt="" id="fotoku" />
 
-    <h2 id="hai">Hey love!</h2>
+    <h2 id="hai">Hey chomu!</h2>
     <h3 id="hia">please scroll😚</h3>
 
     <div id="slider">
@@ -59,7 +59,7 @@
       bg.style = 'background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("' + background + '");'; 
       fotoku.src = foto; 
       var swalo = Swal.mixin({ allowOutsideClick: false });
-      async function kirimPesan() {var {value: pesan} = await swalo.fire({ title: "do you love me?", input: "text", confirmButtonText: "submit" });if (pesan) { await swalo.fire("Ik,thanku for being the most valuable person in my life💕 now text me i'm waiting for your text🥹"); location.assign("https://api.whatsapp.com/send?phone=" + noWhatsapp + "&text=" + pesan); } else { await swalo.fire({ confirmButtonText: "why", title: "aisa kyu:)" }); kirimPesan(); } } document.querySelector("span").addEventListener("click", function () { popUp(); }); var open = document.querySelector(".open"); 
+      async function kirimPesan() {var {value: pesan} = await swalo.fire({ title: "do you love me?", input: "text", confirmButtonText: "submit" });if (pesan) { await swalo.fire("Sorry🥺👉🏻👈🏻 m kuch ni kiya hu sacchi you the most valuable person in my life💕 now text me i'm waiting for your text🥹"); location.assign("https://api.whatsapp.com/send?phone=" + noWhatsapp + "&text=" + pesan); } else { await swalo.fire({ confirmButtonText: "why", title: "aisa kyu:)" }); kirimPesan(); } } document.querySelector("span").addEventListener("click", function () { popUp(); }); var open = document.querySelector(".open"); 
       function ilang() { 
         audio.play(); open.style = "transition: 1.5s ease-out all; opacity: 0; transform: scale(100) translateY(-20px); filter: brightness(0);"; setTimeout(function () { open.style = "display:none;"; }, 1500); setTimeout(function () { fotoku.style = "opacity: 1; transition: 1s all ease; transform: translateY(0px) scale(1);"; }, 500); setTimeout(function () { hai.style = "opacity: 1; transition: 1s all ease; transform: translateY(0px);"; }, 1400); setTimeout(function () { hia.style = "opacity: 1; transition: 1s all ease; transform: translateY(0px);"; }, 1800); setTimeout(function () { slider.style = "opacity: 1; transition: 1s all ease; transform: translateY(0px) scale(1);"; }, 2200); 
       }
